@@ -1,0 +1,68 @@
+"BLOOD_PRESSURE_TREND_TITLE" = "Trend Tekanan Darah";
+"CHART_AXIS_READING" = "Bacaan";
+"CHART_AXIS_SITTING" = "Duduk";
+"CHART_AXIS_STANDING" = "Berdiri";
+"CHART_AXIS_BLOOD_PRESSURE_MMHG" = "Tekanan Darah (mmHg)";
+
+"WELCOME_TITLE" = "Selamat Datang";
+"LANGUAGE_SELECTION_PROMPT" = "Sila pilih bahasa anda.";
+"FLAG_UK" = "🇬🇧";
+"LANGUAGE_ENGLISH" = "Bahasa Inggeris";
+"FLAG_CHINA" = "🇨🇳";
+"LANGUAGE_MANDARIN" = "中文 (Mandarin)";
+"FLAG_MALAYSIA" = "🇲🇾";
+"LANGUAGE_MALAY" = "Bahasa Melayu";
+"FLAG_INDIA" = "🇮🇳";
+"LANGUAGE_TAMIL" = "தமிழ் (Tamil)";
+"CONTINUE_BUTTON" = "Teruskan";
+
+"NAV_BAR_HOME" = "Utama";
+"NAV_BAR_HISTORY" = "Sejarah";
+"NAV_BAR_SUPPORT" = "Sokongan";
+"NAV_BAR_SETTINGS" = "Tetapan";
+
+"TODAYS_SCHEDULE_TITLE" = "Jadual Hari Ini";
+
+"DOSAGE_ONE_QUARTER_TABLET" = "1 suku tablet";
+"ACTIVITY_TAKE_BLOOD_PRESSURE" = "Ambil Tekanan Darah";
+"MEAL_BREAKFAST" = "Sarapan Pagi";
+"ACTIVITY_30_MINUTES" = "30 minit";
+"MEAL_LUNCH" = "Makan Tengah Hari";
+"MEAL_DINNER" = "Makan Malam";
+"DOSAGE_ONE_HALF_TABLET" = "1 separuh tablet";
+"MEDICATION_PROFILE_LOW_DOSAGE" = "Dos Rendah";
+"MEDICATION_NAME_MADOPAR" = "Madopar";
+"ACTIVITY_BLOOD_PRESSURE" = "Tekanan Darah";
+"ACTIVITY_EXERCISE" = "Senaman";
+
+"GREETING_HELLO" = "Helo,";
+"USER_NAME_PLACEHOLDER" = "Pengguna";
+
+"PROFILE_SCHEDULE_TITLE" = "Jadual";
+"PROFILE_MEDICATION_PROFILE_TITLE" = "Profil Ubat";
+"PROFILE_MEDICATION_TYPE_LABEL" = "Jenis Ubat";
+"PROFILE_START_DATE_LABEL" = "Tarikh Mula";
+"PROFILE_MOVING_FORWARD_LABEL" = "Bergerak ke Hadapan";
+
+"GENERIC_SCREEN_SUFFIX" = " skrin";
+
+"CONFIRM_TITLE" = "Sahkan?";
+"YES_BUTTON" = "Ya";
+"NO_BUTTON" = "Tidak";
+"COMPLETED_TASK_TITLE" = "Rekod Tugas Harian";
+"ALL_TASKS_COMPLETED_MESSAGE" = "Anda telah menyelesaikan semua tugas!";
+
+// MARK: - Blood Pressure Entry
+"BP_ENTRY_SITTING_TITLE" = "Masukkan Tekanan Darah Semasa Duduk";
+"BP_ENTRY_STANDING_TITLE" = "Masukkan Tekanan Darah Semasa Berdiri";
+"BP_TIMER_TITLE" = "Sila Berdiri Selama 3 Minit";
+"BP_TIMER_INSTRUCTION" = "Kekal berdiri, diam dan relaks";
+"BP_SYSTOLIC_LABEL" = "Sistolik";
+"BP_DIASTOLIC_LABEL" = "Diastolik";
+"BP_SAVE_BUTTON" = "Simpan";
+"BP_CANCEL_BUTTON" = "Batal";
+"BP_START_TIMER_BUTTON" = "MULAKAN";
+"BP_TIMER_RUNNING_BUTTON" = "Sedang Berjalan…";
+"BP_SAVED_TOAST" = "Disimpan";
+"BP_GRAPH_EMPTY_STATE" = "Tiada bacaan tekanan darah direkodkan";
+"SUPPORT_VIEW_NOTE" = "**Hidup dengan Parkinson**\nHidup dengan Parkinson adalah satu perjalanan, bukan destinasi. Anda pasti boleh! Dengan mengambil langkah-langkah kecil yang konsisten, anda boleh mengekalkan kekuatan anda dan menjalani kehidupan sepenuhnya. Berikut adalah apa yang boleh anda lakukan untuk kekal di landasan yang betul:\n\n- **Bersenam Setiap Hari**: Terus bergerak! Aktiviti seperti berjalan, meregangkan badan, atau tai chi boleh meningkatkan mobiliti dan mood. Sasarkan 30 minit kebanyakan hari—badan anda akan berterima kasih kepada anda.\n\n- **Ambil Ubat Tepat Pada Masanya**: Mematuhi jadual ubat anda adalah kunci untuk menguruskan gejala. Tetapkan peringatan untuk kekal konsisten.\n\n- **Pantau Tekanan Darah**: Periksa tekanan darah anda secara berkala untuk sentiasa peka terhadap kesihatan anda. Ia adalah langkah mudah yang membuat perbezaan besar.\n\n- **Jejaki Kemajuan Anda**: Ambil gambar paparan tekanan darah anda dan kotak pil selepas mengambil ubat anda. Ini membantu anda mengesahkan anda telah mengambilnya dan memastikan pasukan penjagaan anda sentiasa dimaklumkan.\n\nAnda lebih kuat daripada yang anda sangka, dan setiap langkah yang anda ambil adalah satu kemenangan. Teruskan!";

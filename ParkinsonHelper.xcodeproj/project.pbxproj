@@ -1,0 +1,478 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4D220A0B2E72CA820042FCAB /* LanguageControllerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D220A0A2E72CA820042FCAB /* LanguageControllerView.swift */; };
+		4D220A0D2E72DA5A0042FCAB /* UIState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D220A0C2E72DA5A0042FCAB /* UIState.swift */; };
+		4D220A0F2E72E10E0042FCAB /* AlertChime.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4D220A0E2E72E10E0042FCAB /* AlertChime.mp3 */; };
+		4D2722A12E69257B00D87DA4 /* ParkinsonHelperApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D2722A02E69257B00D87DA4 /* ParkinsonHelperApp.swift */; };
+		4D2722A32E69257B00D87DA4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D2722A22E69257B00D87DA4 /* ContentView.swift */; };
+		4D2722A52E69257B00D87DA4 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D2722A42E69257B00D87DA4 /* MainView.swift */; };
+		4D2722A72E69257B00D87DA4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4D2722A62E69257B00D87DA4 /* Assets.xcassets */; };
+		4D84BEE22E6B1EFF00014524 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D84BEE12E6B1EFF00014524 /* Launch Screen.storyboard */; };
+		4D84BF3C2E6B2EE300014524 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4D84BF372E6B2EE300014524 /* Localizable.strings */; };
+		4D84BF3D2E6B2EE300014524 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4D84BF312E6B2EE300014524 /* Localizable.strings */; };
+		4D84BF3E2E6B2EE300014524 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4D84BF342E6B2EE300014524 /* Localizable.strings */; };
+		4D84BF3F2E6B2EE300014524 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4D84BF3A2E6B2EE300014524 /* Localizable.strings */; };
+		4DE133912E70380E00986FF8 /* BPEntryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DE133902E70380E00986FF8 /* BPEntryView.swift */; };
+		4DE133932E704AF500986FF8 /* BloodPressureViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DE133922E704AF500986FF8 /* BloodPressureViewModel.swift */; };
+		4DFBB8992E6ADD7B005341B2 /* UserProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DFBB8962E6ADD7A005341B2 /* UserProfile.swift */; };
+		4DFBB89A2E6ADD7B005341B2 /* LanguageSelectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DFBB8872E6ADD7A005341B2 /* LanguageSelectionView.swift */; };
+		4DFBB89B2E6ADD7B005341B2 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DFBB88B2E6ADD7A005341B2 /* MainView.swift */; };
+		4DFBB89C2E6ADD7B005341B2 /* ParkinsonHelperApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DFBB88F2E6ADD7A005341B2 /* ParkinsonHelperApp.swift */; };
+		4DFBB89D2E6ADD7B005341B2 /* MedicationProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DFBB88D2E6ADD7A005341B2 /* MedicationProfileView.swift */; };
+		4DFBB89E2E6ADD7B005341B2 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DFBB8912E6ADD7A005341B2 /* ProfileView.swift */; };
+		4DFBB89F2E6ADD7B005341B2 /* SupportView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DFBB8952E6ADD7A005341B2 /* SupportView.swift */; };
+		4DFBB8A02E6ADD7B005341B2 /* BottomNavBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DFBB8822E6ADD7A005341B2 /* BottomNavBar.swift */; };
+		4DFBB8A12E6ADD7B005341B2 /* BloodPressureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DFBB8812E6ADD7A005341B2 /* BloodPressureView.swift */; };
+		4DFBB8A22E6ADD7B005341B2 /* ParkinsonHelper.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4DFBB88E2E6ADD7A005341B2 /* ParkinsonHelper.xcdatamodeld */; };
+		4DFBB8A32E6ADD7B005341B2 /* MedicationData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DFBB88C2E6ADD7A005341B2 /* MedicationData.swift */; };
+		4DFBB8A42E6ADD7B005341B2 /* SpeechSynthesizerManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DFBB8942E6ADD7A005341B2 /* SpeechSynthesizerManager.swift */; };
+		4DFBB8A52E6ADD7B005341B2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DFBB8832E6ADD7A005341B2 /* ContentView.swift */; };
+		4DFBB8A62E6ADD7B005341B2 /* ScheduleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DFBB8932E6ADD7A005341B2 /* ScheduleView.swift */; };
+		4DFBB8A72E6ADD7B005341B2 /* ScheduleManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DFBB8922E6ADD7A005341B2 /* ScheduleManager.swift */; };
+		4DFBB8A82E6ADD7B005341B2 /* HistoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DFBB8862E6ADD7A005341B2 /* HistoryView.swift */; };
+		4DFBB8A92E6ADD7B005341B2 /* DataModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DFBB8842E6ADD7A005341B2 /* DataModels.swift */; };
+		4DFBB8AA2E6ADD7B005341B2 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DFBB8902E6ADD7A005341B2 /* Persistence.swift */; };
+		4DFBB8AB2E6ADD7B005341B2 /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DFBB8852E6ADD7A005341B2 /* HeaderView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4D220A0A2E72CA820042FCAB /* LanguageControllerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LanguageControllerView.swift; sourceTree = "<group>"; };
+		4D220A0C2E72DA5A0042FCAB /* UIState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIState.swift; sourceTree = "<group>"; };
+		4D220A0E2E72E10E0042FCAB /* AlertChime.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = AlertChime.mp3; sourceTree = "<group>"; };
+		4D2722882E69257B00D87DA4 /* ParkinsonHelper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ParkinsonHelper.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4D2722A02E69257B00D87DA4 /* ParkinsonHelperApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParkinsonHelperApp.swift; sourceTree = "<group>"; };
+		4D2722A22E69257B00D87DA4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		4D2722A42E69257B00D87DA4 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		4D2722A62E69257B00D87DA4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4D84BEE12E6B1EFF00014524 /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		4D84BF302E6B2EE300014524 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = Localizable.strings; sourceTree = "<group>"; };
+		4D84BF332E6B2EE300014524 /* ms */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ms; path = Localizable.strings; sourceTree = "<group>"; };
+		4D84BF362E6B2EE300014524 /* ta */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ta; path = Localizable.strings; sourceTree = "<group>"; };
+		4D84BF392E6B2EE300014524 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = Localizable.strings; sourceTree = "<group>"; };
+		4DE133902E70380E00986FF8 /* BPEntryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BPEntryView.swift; sourceTree = "<group>"; };
+		4DE133922E704AF500986FF8 /* BloodPressureViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BloodPressureViewModel.swift; sourceTree = "<group>"; };
+		4DFBB8812E6ADD7A005341B2 /* BloodPressureView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BloodPressureView.swift; sourceTree = "<group>"; };
+		4DFBB8822E6ADD7A005341B2 /* BottomNavBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomNavBar.swift; sourceTree = "<group>"; };
+		4DFBB8832E6ADD7A005341B2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		4DFBB8842E6ADD7A005341B2 /* DataModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataModels.swift; sourceTree = "<group>"; };
+		4DFBB8852E6ADD7A005341B2 /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
+		4DFBB8862E6ADD7A005341B2 /* HistoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryView.swift; sourceTree = "<group>"; };
+		4DFBB8872E6ADD7A005341B2 /* LanguageSelectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LanguageSelectionView.swift; sourceTree = "<group>"; };
+		4DFBB88B2E6ADD7A005341B2 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		4DFBB88C2E6ADD7A005341B2 /* MedicationData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MedicationData.swift; sourceTree = "<group>"; };
+		4DFBB88D2E6ADD7A005341B2 /* MedicationProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MedicationProfileView.swift; sourceTree = "<group>"; };
+		4DFBB88F2E6ADD7A005341B2 /* ParkinsonHelperApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParkinsonHelperApp.swift; sourceTree = "<group>"; };
+		4DFBB8902E6ADD7A005341B2 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		4DFBB8912E6ADD7A005341B2 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		4DFBB8922E6ADD7A005341B2 /* ScheduleManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScheduleManager.swift; sourceTree = "<group>"; };
+		4DFBB8932E6ADD7A005341B2 /* ScheduleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScheduleView.swift; sourceTree = "<group>"; };
+		4DFBB8942E6ADD7A005341B2 /* SpeechSynthesizerManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeechSynthesizerManager.swift; sourceTree = "<group>"; };
+		4DFBB8952E6ADD7A005341B2 /* SupportView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SupportView.swift; sourceTree = "<group>"; };
+		4DFBB8962E6ADD7A005341B2 /* UserProfile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserProfile.swift; sourceTree = "<group>"; };
+		4DFBB8982E6ADD7A005341B2 /* ParkinsonHelper.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ParkinsonHelper.xcdatamodel; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4D2722852E69257B00D87DA4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4D27227F2E69257B00D87DA4 = {
+			isa = PBXGroup;
+			children = (
+				4D84BEE12E6B1EFF00014524 /* Launch Screen.storyboard */,
+				4D2722A82E69257B00D87DA4 /* ParkinsonHelper */,
+				4D2722892E69257B00D87DA4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4D2722892E69257B00D87DA4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4D2722882E69257B00D87DA4 /* ParkinsonHelper.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4D2722A82E69257B00D87DA4 /* ParkinsonHelper */ = {
+			isa = PBXGroup;
+			children = (
+				4D220A0E2E72E10E0042FCAB /* AlertChime.mp3 */,
+				4D220A0C2E72DA5A0042FCAB /* UIState.swift */,
+				4D220A0A2E72CA820042FCAB /* LanguageControllerView.swift */,
+				4DE133922E704AF500986FF8 /* BloodPressureViewModel.swift */,
+				4DE133902E70380E00986FF8 /* BPEntryView.swift */,
+				4D2722A02E69257B00D87DA4 /* ParkinsonHelperApp.swift */,
+				4D2722A22E69257B00D87DA4 /* ContentView.swift */,
+				4D2722A42E69257B00D87DA4 /* MainView.swift */,
+				4D2722A62E69257B00D87DA4 /* Assets.xcassets */,
+				4DFBB8812E6ADD7A005341B2 /* BloodPressureView.swift */,
+				4DFBB8822E6ADD7A005341B2 /* BottomNavBar.swift */,
+				4DFBB8832E6ADD7A005341B2 /* ContentView.swift */,
+				4DFBB8842E6ADD7A005341B2 /* DataModels.swift */,
+				4DFBB8852E6ADD7A005341B2 /* HeaderView.swift */,
+				4DFBB8862E6ADD7A005341B2 /* HistoryView.swift */,
+				4DFBB8872E6ADD7A005341B2 /* LanguageSelectionView.swift */,
+				4DFBB88B2E6ADD7A005341B2 /* MainView.swift */,
+				4DFBB88C2E6ADD7A005341B2 /* MedicationData.swift */,
+				4DFBB88D2E6ADD7A005341B2 /* MedicationProfileView.swift */,
+				4DFBB88E2E6ADD7A005341B2 /* ParkinsonHelper.xcdatamodeld */,
+				4DFBB88F2E6ADD7A005341B2 /* ParkinsonHelperApp.swift */,
+				4DFBB8902E6ADD7A005341B2 /* Persistence.swift */,
+				4DFBB8912E6ADD7A005341B2 /* ProfileView.swift */,
+				4DFBB8922E6ADD7A005341B2 /* ScheduleManager.swift */,
+				4DFBB8932E6ADD7A005341B2 /* ScheduleView.swift */,
+				4DFBB8942E6ADD7A005341B2 /* SpeechSynthesizerManager.swift */,
+				4DFBB8952E6ADD7A005341B2 /* SupportView.swift */,
+				4DFBB8962E6ADD7A005341B2 /* UserProfile.swift */,
+				4D84BF322E6B2EE300014524 /* en.lproj */,
+				4D84BF352E6B2EE300014524 /* ms.lproj */,
+				4D84BF382E6B2EE300014524 /* ta.lproj */,
+				4D84BF3B2E6B2EE300014524 /* zh-Hans.lproj */,
+			);
+			path = ParkinsonHelper;
+			sourceTree = "<group>";
+		};
+		4D84BF322E6B2EE300014524 /* en.lproj */ = {
+			isa = PBXGroup;
+			children = (
+				4D84BF312E6B2EE300014524 /* Localizable.strings */,
+			);
+			path = en.lproj;
+			sourceTree = "<group>";
+		};
+		4D84BF352E6B2EE300014524 /* ms.lproj */ = {
+			isa = PBXGroup;
+			children = (
+				4D84BF342E6B2EE300014524 /* Localizable.strings */,
+			);
+			path = ms.lproj;
+			sourceTree = "<group>";
+		};
+		4D84BF382E6B2EE300014524 /* ta.lproj */ = {
+			isa = PBXGroup;
+			children = (
+				4D84BF372E6B2EE300014524 /* Localizable.strings */,
+			);
+			path = ta.lproj;
+			sourceTree = "<group>";
+		};
+		4D84BF3B2E6B2EE300014524 /* zh-Hans.lproj */ = {
+			isa = PBXGroup;
+			children = (
+				4D84BF3A2E6B2EE300014524 /* Localizable.strings */,
+			);
+			path = "zh-Hans.lproj";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4D2722872E69257B00D87DA4 /* ParkinsonHelper */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4D2722982E69257E00D87DA4 /* Build configuration list for PBXNativeTarget "ParkinsonHelper" */;
+			buildPhases = (
+				4D2722842E69257B00D87DA4 /* Sources */,
+				4D2722852E69257B00D87DA4 /* Frameworks */,
+				4D2722862E69257B00D87DA4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ParkinsonHelper;
+			productName = ParkinsonHelper;
+			productReference = 4D2722882E69257B00D87DA4 /* ParkinsonHelper.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4D2722802E69257B00D87DA4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1640;
+			};
+			buildConfigurationList = 4D2722832E69257B00D87DA4 /* Build configuration list for PBXProject "ParkinsonHelper" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				"zh-Hans",
+				ms,
+				ta,
+			);
+			mainGroup = 4D27227F2E69257B00D87DA4;
+			productRefGroup = 4D2722892E69257B00D87DA4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4D2722872E69257B00D87DA4 /* ParkinsonHelper */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4D2722862E69257B00D87DA4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D84BEE22E6B1EFF00014524 /* Launch Screen.storyboard in Resources */,
+				4D84BF3C2E6B2EE300014524 /* Localizable.strings in Resources */,
+				4D84BF3D2E6B2EE300014524 /* Localizable.strings in Resources */,
+				4D84BF3E2E6B2EE300014524 /* Localizable.strings in Resources */,
+				4D84BF3F2E6B2EE300014524 /* Localizable.strings in Resources */,
+				4D2722A72E69257B00D87DA4 /* Assets.xcassets in Resources */,
+				4D220A0F2E72E10E0042FCAB /* AlertChime.mp3 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4D2722842E69257B00D87DA4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D2722A12E69257B00D87DA4 /* ParkinsonHelperApp.swift in Sources */,
+				4D2722A32E69257B00D87DA4 /* ContentView.swift in Sources */,
+				4DFBB8992E6ADD7B005341B2 /* UserProfile.swift in Sources */,
+				4DE133912E70380E00986FF8 /* BPEntryView.swift in Sources */,
+				4DFBB89A2E6ADD7B005341B2 /* LanguageSelectionView.swift in Sources */,
+				4DFBB89B2E6ADD7B005341B2 /* MainView.swift in Sources */,
+				4DFBB89C2E6ADD7B005341B2 /* ParkinsonHelperApp.swift in Sources */,
+				4DFBB89D2E6ADD7B005341B2 /* MedicationProfileView.swift in Sources */,
+				4DFBB89E2E6ADD7B005341B2 /* ProfileView.swift in Sources */,
+				4DFBB89F2E6ADD7B005341B2 /* SupportView.swift in Sources */,
+				4DFBB8A02E6ADD7B005341B2 /* BottomNavBar.swift in Sources */,
+				4DFBB8A12E6ADD7B005341B2 /* BloodPressureView.swift in Sources */,
+				4DFBB8A22E6ADD7B005341B2 /* ParkinsonHelper.xcdatamodeld in Sources */,
+				4DFBB8A32E6ADD7B005341B2 /* MedicationData.swift in Sources */,
+				4DFBB8A42E6ADD7B005341B2 /* SpeechSynthesizerManager.swift in Sources */,
+				4D220A0D2E72DA5A0042FCAB /* UIState.swift in Sources */,
+				4DFBB8A52E6ADD7B005341B2 /* ContentView.swift in Sources */,
+				4DFBB8A62E6ADD7B005341B2 /* ScheduleView.swift in Sources */,
+				4DFBB8A72E6ADD7B005341B2 /* ScheduleManager.swift in Sources */,
+				4DFBB8A82E6ADD7B005341B2 /* HistoryView.swift in Sources */,
+				4D220A0B2E72CA820042FCAB /* LanguageControllerView.swift in Sources */,
+				4DFBB8A92E6ADD7B005341B2 /* DataModels.swift in Sources */,
+				4DFBB8AA2E6ADD7B005341B2 /* Persistence.swift in Sources */,
+				4DE133932E704AF500986FF8 /* BloodPressureViewModel.swift in Sources */,
+				4DFBB8AB2E6ADD7B005341B2 /* HeaderView.swift in Sources */,
+				4D2722A52E69257B00D87DA4 /* MainView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		4D84BF312E6B2EE300014524 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4D84BF302E6B2EE300014524 /* en */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+		4D84BF342E6B2EE300014524 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4D84BF332E6B2EE300014524 /* ms */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+		4D84BF372E6B2EE300014524 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4D84BF362E6B2EE300014524 /* ta */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+		4D84BF3A2E6B2EE300014524 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4D84BF392E6B2EE300014524 /* zh-Hans */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4D2722962E69257E00D87DA4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4D2722972E69257E00D87DA4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		4D2722992E69257E00D87DA4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4RW4AV58HP;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Parkinson Helper";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = io.parkinsonhelper.mobile.PHApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4D27229A2E69257E00D87DA4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4RW4AV58HP;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Parkinson Helper";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = io.parkinsonhelper.mobile.PHApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4D2722832E69257B00D87DA4 /* Build configuration list for PBXProject "ParkinsonHelper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4D2722962E69257E00D87DA4 /* Debug */,
+				4D2722972E69257E00D87DA4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4D2722982E69257E00D87DA4 /* Build configuration list for PBXNativeTarget "ParkinsonHelper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4D2722992E69257E00D87DA4 /* Debug */,
+				4D27229A2E69257E00D87DA4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		4DFBB88E2E6ADD7A005341B2 /* ParkinsonHelper.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				4DFBB8982E6ADD7A005341B2 /* ParkinsonHelper.xcdatamodel */,
+			);
+			currentVersion = 4DFBB8982E6ADD7A005341B2 /* ParkinsonHelper.xcdatamodel */;
+			path = ParkinsonHelper.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 4D2722802E69257B00D87DA4 /* Project object */;
+}

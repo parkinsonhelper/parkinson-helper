@@ -1,0 +1,68 @@
+"BLOOD_PRESSURE_TREND_TITLE" = "血压趋势";
+"CHART_AXIS_READING" = "读数";
+"CHART_AXIS_SITTING" = "坐姿";
+"CHART_AXIS_STANDING" = "站姿";
+"CHART_AXIS_BLOOD_PRESSURE_MMHG" = "血压 (mmHg)";
+
+"WELCOME_TITLE" = "欢迎";
+"LANGUAGE_SELECTION_PROMPT" = "请选择您的语言。";
+"FLAG_UK" = "🇬🇧";
+"LANGUAGE_ENGLISH" = "英语";
+"FLAG_CHINA" = "🇨🇳";
+"LANGUAGE_MANDARIN" = "中文 (普通话)";
+"FLAG_MALAYSIA" = "🇲🇾";
+"LANGUAGE_MALAY" = "马来语";
+"FLAG_INDIA" = "🇮🇳";
+"LANGUAGE_TAMIL" = "泰米尔语";
+"CONTINUE_BUTTON" = "继续";
+
+"NAV_BAR_HOME" = "主页";
+"NAV_BAR_HISTORY" = "历史";
+"NAV_BAR_SUPPORT" = "支持";
+"NAV_BAR_SETTINGS" = "设置";
+
+"TODAYS_SCHEDULE_TITLE" = "今日日程";
+
+"DOSAGE_ONE_QUARTER_TABLET" = "四分之一片";
+"ACTIVITY_TAKE_BLOOD_PRESSURE" = "测量血压";
+"MEAL_BREAKFAST" = "早餐";
+"ACTIVITY_30_MINUTES" = "30分钟";
+"MEAL_LUNCH" = "午餐";
+"MEAL_DINNER" = "晚餐";
+"DOSAGE_ONE_HALF_TABLET" = "半片";
+"MEDICATION_PROFILE_LOW_DOSAGE" = "低剂量";
+"MEDICATION_NAME_MADOPAR" = "美多巴";
+"ACTIVITY_BLOOD_PRESSURE" = "血压";
+"ACTIVITY_EXERCISE" = "运动";
+
+"GREETING_HELLO" = "你好,";
+"USER_NAME_PLACEHOLDER" = "用户";
+
+"PROFILE_SCHEDULE_TITLE" = "日程";
+"PROFILE_MEDICATION_PROFILE_TITLE" = "用药档案";
+"PROFILE_MEDICATION_TYPE_LABEL" = "用药类型";
+"PROFILE_START_DATE_LABEL" = "开始日期";
+"PROFILE_MOVING_FORWARD_LABEL" = "持续进行";
+
+"GENERIC_SCREEN_SUFFIX" = " 屏幕";
+
+"CONFIRM_TITLE" = "确认？";
+"YES_BUTTON" = "是";
+"NO_BUTTON" = "否";
+"COMPLETED_TASK_TITLE" = "每日任务记录";
+"ALL_TASKS_COMPLETED_MESSAGE" = "您已完成所有任务！";
+
+// MARK: - Blood Pressure Entry
+"BP_ENTRY_SITTING_TITLE" = "输入坐姿血压";
+"BP_ENTRY_STANDING_TITLE" = "输入站姿血压";
+"BP_TIMER_TITLE" = "请站立3分钟";
+"BP_TIMER_INSTRUCTION" = "保持站立，静止且放松";
+"BP_SYSTOLIC_LABEL" = "收缩压";
+"BP_DIASTOLIC_LABEL" = "舒张压";
+"BP_SAVE_BUTTON" = "保存";
+"BP_CANCEL_BUTTON" = "取消";
+"BP_START_TIMER_BUTTON" = "开始";
+"BP_TIMER_RUNNING_BUTTON" = "运行中…";
+"BP_SAVED_TOAST" = "已保存";
+"BP_GRAPH_EMPTY_STATE" = "尚未记录血压读数";
+"SUPPORT_VIEW_NOTE" = "**与帕金森病共存**\n与帕金森病共存是一段旅程，而不是终点。你一定可以做到！通过坚持小小的日常步骤，你可以保持活力，充分享受生活。以下是你可以做的事情：\n\n- **每天锻炼**：保持运动！散步、伸展运动或太极拳等活动可以提升灵活性和心情。每周尽量运动30分钟，你的努力会有回报。\n\n- **按时服药**：严格遵守药物时间表是控制症状的关键。设置提醒，确保按时服药。\n\n- **监测血压**：定期检查血压，关注自己的健康状况。这是一个简单的步骤，却意义重大。\n\n- **记录进展**：服药后，拍下血压显示屏和药盒的照片。这能帮助你确认已服药，并让你的医疗团队了解情况。\n\n你比你想象的更坚强，每迈出一步都是胜利。继续加油!";

@@ -1,0 +1,68 @@
+"BLOOD_PRESSURE_TREND_TITLE" = "Blood Pressure Trend";
+"CHART_AXIS_READING" = "Reading";
+"CHART_AXIS_SITTING" = "Sitting";
+"CHART_AXIS_STANDING" = "Standing";
+"CHART_AXIS_BLOOD_PRESSURE_MMHG" = "Blood Pressure (mmHg)";
+
+"WELCOME_TITLE" = "Welcome";
+"LANGUAGE_SELECTION_PROMPT" = "Please select your language.";
+"FLAG_UK" = "🇬🇧";
+"LANGUAGE_ENGLISH" = "English";
+"FLAG_CHINA" = "🇨🇳";
+"LANGUAGE_MANDARIN" = "中文 (Mandarin)";
+"FLAG_MALAYSIA" = "🇲🇾";
+"LANGUAGE_MALAY" = "Bahasa Melayu";
+"FLAG_INDIA" = "🇮🇳";
+"LANGUAGE_TAMIL" = "தமிழ் (Tamil)";
+"CONTINUE_BUTTON" = "Continue";
+
+"NAV_BAR_HOME" = "Home";
+"NAV_BAR_HISTORY" = "History";
+"NAV_BAR_SUPPORT" = "Support";
+"NAV_BAR_SETTINGS" = "Settings";
+
+"TODAYS_SCHEDULE_TITLE" = "Today's Schedule";
+
+"DOSAGE_ONE_QUARTER_TABLET" = "1 quarter tablet";
+"ACTIVITY_TAKE_BLOOD_PRESSURE" = "Take Blood Pressure";
+"MEAL_BREAKFAST" = "Breakfast";
+"ACTIVITY_30_MINUTES" = "30 minutes";
+"MEAL_LUNCH" = "Lunch";
+"MEAL_DINNER" = "Dinner";
+"DOSAGE_ONE_HALF_TABLET" = "1 half tablet";
+"MEDICATION_PROFILE_LOW_DOSAGE" = "Low Dosage";
+"MEDICATION_NAME_MADOPAR" = "Madopar";
+"ACTIVITY_BLOOD_PRESSURE" = "Blood Pressure";
+"ACTIVITY_EXERCISE" = "Exercise";
+
+"GREETING_HELLO" = "Hello,";
+"USER_NAME_PLACEHOLDER" = "User";
+
+"PROFILE_SCHEDULE_TITLE" = "Schedule";
+"PROFILE_MEDICATION_PROFILE_TITLE" = "Medication Profile";
+"PROFILE_MEDICATION_TYPE_LABEL" = "Medication Type";
+"PROFILE_START_DATE_LABEL" = "Start Date";
+"PROFILE_MOVING_FORWARD_LABEL" = "Moving forward";
+
+"GENERIC_SCREEN_SUFFIX" = " screen";
+
+"CONFIRM_TITLE" = "Confirm?";
+"YES_BUTTON" = "Yes";
+"NO_BUTTON" = "No";
+"COMPLETED_TASK_TITLE" = "Daily Task Records";
+"ALL_TASKS_COMPLETED_MESSAGE" = "You have completed all the task!";
+
+// MARK: - Blood Pressure Entry
+"BP_ENTRY_SITTING_TITLE" = "Enter Sitting Blood Pressure";
+"BP_ENTRY_STANDING_TITLE" = "Enter Standing Blood Pressure";
+"BP_TIMER_TITLE" = "Please Stand for 3 minutes";
+"BP_TIMER_INSTRUCTION" = "Remain standing, still and relaxed";
+"BP_SYSTOLIC_LABEL" = "Systolic";
+"BP_DIASTOLIC_LABEL" = "Diastolic";
+"BP_SAVE_BUTTON" = "Save";
+"BP_CANCEL_BUTTON" = "Cancel";
+"BP_START_TIMER_BUTTON" = "START";
+"BP_TIMER_RUNNING_BUTTON" = "Running…";
+"BP_SAVED_TOAST" = "Saved";
+"BP_GRAPH_EMPTY_STATE" = "No blood pressure readings recorded yet.";
+"SUPPORT_VIEW_NOTE" = "**Living with Parkinson**\nLiving with Parkinson’s is a journey, not a destination. You’ve got this! By taking small, consistent steps, you can maintain your strength and live life to the fullest. Here’s what you can do to stay on track:\n\n- **Exercise Daily**: Keep moving! Activities like walking, stretching, or tai chi can boost mobility and mood. Aim for 30 minutes most days—your body will thank you.\n\n- **Take Medications on Time**: Sticking to your medication schedule is key to managing symptoms. Set reminders to stay consistent.\n\n- **Monitor Blood Pressure**: Check your blood pressure regularly to stay aware of your health. It’s a simple step that makes a big difference.\n\n- **Track Your Progress**: Snap a photo of your blood pressure display and pillbox after taking your meds. This helps you confirm you’ve taken them and keeps your care team informed.\n\nYou’re stronger than you know, and every step you take is a victory. Keep going!";
