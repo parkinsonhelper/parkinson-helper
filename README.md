@@ -43,35 +43,35 @@ With studies indicating that over 11 million people worldwide were living with P
 
 ## Parkinson Helper's High Level Specifications
 
-ID | State | Core Task | High Level Specifications.
---- | --- | --- | ---
-1. | [X] | UI DESIGN | Adaptive Card Based Interface with Menu Tabs for different functions.
-2. | [X] | UI DESIGN | User Profile button with Family name, Optional name, Age (mandatory), Gender M/F
-3. | [X] | UI DESIGN | Main Menu Buttons (Profile, Home, History, Support, Settings)
-4. | [X] | UI DESIGN | Today’s Schedule cards with current task due, with check off function.
-5. | [X] | UI DESIGN | Daily Task (Meds/ Exercise/BP) with representing SF Icon, Text, TTS support.
-6. | [X] | UI DESIGN | Blood Pressure monitor card with SYS/DIA Plot Graph.
-7. | [X] | UI DESIGN | History Tab showing all historically completed / incomplete task sort by date.
-8. | [X] | UI DESIGN | Support Tab placeholder for future exercise, meditation, health advisories.
-9. | [X] | UI DESIGN | Settings Tab download medication profiles and schedule plan.
-10.| [X] | DB DESIGN | Storing Current Medication profile in DB.
-11.| [X] | DB DESIGN | Deploying Core Data db to store Historical task.
-12.| [X] | DB DESIGN | Deploying Core Data db to store Blood Pressure task.
-13.| [ ] | DB DESIGN | Deploying Core Data db to store downloaded Medication profiles in the future.
-14.| [ ] | DB DESIGN | Deploying Core Data db to store AI summarized monthly report.
-15.| [X] | SYS DESIGN | Function to display daily task dynamically.
-16.| [X] | SYS DESIGN | Function to display daily BP graph plot dynamically.
-17.| [X] | SYS DESIGN | Function to capture user daily sitting, waiting, standing BP.
-18.| [X] | SYS DESIGN | Function to Dispatch Alerts to user at task time.
-19.| [X] | SYS DESIGN | Function to perform daily roll over of incomplete task to history tab.
-20.| [X] | SYS DESIGN | Function to perform daily refresh of daily task for new day.
-21.| [X] | SYS DESIGN | Function to Convert displayed text to speech.
-22.| [ ] | SYS DESIGN | Function to utilize phone’s onboard computer vision to read BP display.
-23.| [ ] | SYS DESIGN | Function to utilize phone’s onboard AI models to summarize BP and task data.
-24.| [ ] | SYS DESIGN | Expand language localization beyond current language support.
-25.| [ ] | SYS DESIGN | Extend support to other phone operating systems.
-26.| [ ] | SYS DESIGN | Connectivity for user to download new medication profiles.
-27.| [ ] | SYS DESIGN | Function to pre-scan and validate downloaded medication profiles for schema compliance.
+State | Core Task | High Level Specifications.
+--- | --- | ---
+[X] | UI DESIGN | Adaptive Card Based Interface with Menu Tabs for different functions.
+[X] | UI DESIGN | User Profile button with Family name, Optional name, Age (mandatory), Gender M/F
+[X] | UI DESIGN | Main Menu Buttons (Profile, Home, History, Support, Settings)
+[X] | UI DESIGN | Today’s Schedule cards with current task due, with check off function.
+[X] | UI DESIGN | Daily Task (Meds/ Exercise/BP) with representing SF Icon, Text, TTS support.
+[X] | UI DESIGN | Blood Pressure monitor card with SYS/DIA Plot Graph.
+[X] | UI DESIGN | History Tab showing all historically completed / incomplete task sort by date.
+[X] | UI DESIGN | Support Tab placeholder for future exercise, meditation, health advisories.
+[X] | UI DESIGN | Settings Tab download medication profiles and schedule plan.
+[X] | DB DESIGN | Storing Current Medication profile in DB.
+[X] | DB DESIGN | Deploying Core Data db to store Historical task.
+[X] | DB DESIGN | Deploying Core Data db to store Blood Pressure task.
+[ ] | DB DESIGN | Deploying Core Data db to store downloaded Medication profiles in the future.
+[ ] | DB DESIGN | Deploying Core Data db to store AI summarized monthly report.
+[X] | SYS DESIGN | Function to display daily task dynamically.
+[X] | SYS DESIGN | Function to display daily BP graph plot dynamically.
+[X] | SYS DESIGN | Function to capture user daily sitting, waiting, standing BP.
+[X] | SYS DESIGN | Function to Dispatch Alerts to user at task time.
+[X] | SYS DESIGN | Function to perform daily roll over of incomplete task to history tab.
+[X] | SYS DESIGN | Function to perform daily refresh of daily task for new day.
+[X] | SYS DESIGN | Function to Convert displayed text to speech.
+[ ] | SYS DESIGN | Function to utilize phone’s onboard computer vision to read BP display.
+[ ] | SYS DESIGN | Function to utilize phone’s onboard AI models to summarize BP and task data.
+[ ] | SYS DESIGN | Expand language localization beyond current language support.
+[ ] | SYS DESIGN | Extend support to other phone operating systems.
+[ ] | SYS DESIGN | Connectivity for user to download new medication profiles.
+[ ] | SYS DESIGN | Function to pre-scan and validate downloaded medication profiles for schema compliance.
 
 ## Project Roadmap
 
