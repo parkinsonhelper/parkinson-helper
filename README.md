@@ -1,6 +1,7 @@
 # Parkinson Helper: Empowering Patients
 
 [![YouTube Video Thumbnail](./assets/youtube_thumbnail.png)](https://youtu.be/ES8kmNoG8FQ)
+## Click picture to launch Parkinson Helper Youtube Video Introduction
 
 This open-source iOS (Swift/SwiftUI) application was born from a family member's journey with the condition, which is the driving force behind the mission to provide a simple, accessible, and helpful tool. The project is now being open-sourced to invite collaboration from developers who share this vision.
 
