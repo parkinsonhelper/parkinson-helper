@@ -18,7 +18,7 @@ This project is committed to the highest standards of patient care and privacy. 
 
 ## Vision
 
-With studies indicating that over 11 million people worldwide were living with Parkinson's disease in 2021, the need for accessible support tools is immense. Our goal is to create the most effective, free, and open-source companion app for the Parkinson's community. By leveraging the power of community-driven development, we aim to build a comprehensive, user-friendly, and reliable tool that adapts to the real-world needs of its users. We believe that by working together, we can create something truly impactful.
+With studies indicating that over ~11 million people worldwide were living with Parkinson's disease, the need for accessible support tools is immense. Our goal is to create the most effective, free, and open-source companion app for the Parkinson's community. By leveraging the power of community-driven development, we aim to build a comprehensive, user-friendly, and reliable tool that adapts to the real-world needs of its users. We believe that by working together, we can create something truly impactful.
 
 ## Key Features
 
@@ -54,7 +54,7 @@ State | Core Task | High Level Specifications.
 [X] | UI DESIGN | History Tab showing all historically completed / incomplete task sort by date.
 [X] | UI DESIGN | Support Tab placeholder for future exercise, meditation, health advisories.
 [X] | UI DESIGN | Settings Tab download medication profiles and schedule plan.
-[X] | DB DESIGN | Storing Current Medication profile in DB.
+[ ] | DB DESIGN | Storing Current Medication profile in DB.
 [X] | DB DESIGN | Deploying Core Data db to store Historical task.
 [X] | DB DESIGN | Deploying Core Data db to store Blood Pressure task.
 [ ] | DB DESIGN | Deploying Core Data db to store downloaded Medication profiles in the future.
@@ -150,7 +150,7 @@ We welcome developers of all levels. Whether you're fixing a bug, adding a new f
 
 1.  Clone the repository.
 2.  Open `ParkinsonHelper.xcodeproj` in Xcode.
-3.  Build and run the project on the simulator or a physical device. 
+3.  Build and run the project on the simulator or a physical device (ie. Iphone). 
 
 ## Project Files
 s/n | filename | Description
@@ -189,7 +189,12 @@ s/n | filename | Description
 31 | UserProfile.swift | A data model that defines the structure for a user's profile information.
 32 | Launch Screen.storyboard | A file that defines the user interface for the launch screen, which is displayed when the application starts up.
 33 | ParkinsonHelper.xcodeproj | The main Xcode project file. It contains all the settings for the project, including the file structure, build targets, and code signing configurations.
-34 | readme.md | A Markdown file that provides a general overview of the project, its purpose, and instructions on how to use it.
+34 | README.md | A Markdown file that provides a general overview of the project, its purpose, and instructions on how to use it.
+35 | LICENSE.md | A Markdown file that provides the open source license for this project.
+36 | CONTRIBUTING.md | A Markdown file that provides a general overview of the project contribution details.
+37 | CODE_OF_CONDUCT.md | A Markdown file that provides a breakdown on the Contributor Covenant Code of Conduct
+
+
 
 
 ## License
