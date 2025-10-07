@@ -28,7 +28,7 @@
 		4DFBB89D2E6ADD7B005341B2 /* MedicationProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DFBB88D2E6ADD7A005341B2 /* MedicationProfileView.swift */; };
 		4DFBB89E2E6ADD7B005341B2 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DFBB8912E6ADD7A005341B2 /* ProfileView.swift */; };
 		4DFBB89F2E6ADD7B005341B2 /* SupportView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DFBB8952E6ADD7A005341B2 /* SupportView.swift */; };
-		4DFBB8A02E6ADD7B005341B2 /* BottomNavBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DFBB8822E6ADD7A005341B2 /* BottomNavBar.swift */; };
+		4DFBB8A02E6ADD7B005341B2 /* TabItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DFBB8822E6ADD7A005341B2 /* TabItem.swift */; };
 		4DFBB8A12E6ADD7B005341B2 /* BloodPressureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DFBB8812E6ADD7A005341B2 /* BloodPressureView.swift */; };
 		4DFBB8A22E6ADD7B005341B2 /* ParkinsonHelper.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4DFBB88E2E6ADD7A005341B2 /* ParkinsonHelper.xcdatamodeld */; };
 		4DFBB8A32E6ADD7B005341B2 /* MedicationData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DFBB88C2E6ADD7A005341B2 /* MedicationData.swift */; };
@@ -40,6 +40,7 @@
 		4DFBB8A92E6ADD7B005341B2 /* DataModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DFBB8842E6ADD7A005341B2 /* DataModels.swift */; };
 		4DFBB8AA2E6ADD7B005341B2 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DFBB8902E6ADD7A005341B2 /* Persistence.swift */; };
 		4DFBB8AB2E6ADD7B005341B2 /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DFBB8852E6ADD7A005341B2 /* HeaderView.swift */; };
+		AFFDD89B2E85C8E30050905D /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFFDD89A2E85C8E30050905D /* HomeView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -59,7 +60,7 @@
 		4DE133902E70380E00986FF8 /* BPEntryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BPEntryView.swift; sourceTree = "<group>"; };
 		4DE133922E704AF500986FF8 /* BloodPressureViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BloodPressureViewModel.swift; sourceTree = "<group>"; };
 		4DFBB8812E6ADD7A005341B2 /* BloodPressureView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BloodPressureView.swift; sourceTree = "<group>"; };
-		4DFBB8822E6ADD7A005341B2 /* BottomNavBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomNavBar.swift; sourceTree = "<group>"; };
+		4DFBB8822E6ADD7A005341B2 /* TabItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabItem.swift; sourceTree = "<group>"; };
 		4DFBB8832E6ADD7A005341B2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		4DFBB8842E6ADD7A005341B2 /* DataModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataModels.swift; sourceTree = "<group>"; };
 		4DFBB8852E6ADD7A005341B2 /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
@@ -77,6 +78,7 @@
 		4DFBB8952E6ADD7A005341B2 /* SupportView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SupportView.swift; sourceTree = "<group>"; };
 		4DFBB8962E6ADD7A005341B2 /* UserProfile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserProfile.swift; sourceTree = "<group>"; };
 		4DFBB8982E6ADD7A005341B2 /* ParkinsonHelper.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ParkinsonHelper.xcdatamodel; sourceTree = "<group>"; };
+		AFFDD89A2E85C8E30050905D /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -120,13 +122,14 @@
 				4D2722A42E69257B00D87DA4 /* MainView.swift */,
 				4D2722A62E69257B00D87DA4 /* Assets.xcassets */,
 				4DFBB8812E6ADD7A005341B2 /* BloodPressureView.swift */,
-				4DFBB8822E6ADD7A005341B2 /* BottomNavBar.swift */,
+				4DFBB8822E6ADD7A005341B2 /* TabItem.swift */,
 				4DFBB8832E6ADD7A005341B2 /* ContentView.swift */,
 				4DFBB8842E6ADD7A005341B2 /* DataModels.swift */,
 				4DFBB8852E6ADD7A005341B2 /* HeaderView.swift */,
 				4DFBB8862E6ADD7A005341B2 /* HistoryView.swift */,
 				4DFBB8872E6ADD7A005341B2 /* LanguageSelectionView.swift */,
 				4DFBB88B2E6ADD7A005341B2 /* MainView.swift */,
+				AFFDD89A2E85C8E30050905D /* HomeView.swift */,
 				4DFBB88C2E6ADD7A005341B2 /* MedicationData.swift */,
 				4DFBB88D2E6ADD7A005341B2 /* MedicationProfileView.swift */,
 				4DFBB88E2E6ADD7A005341B2 /* ParkinsonHelper.xcdatamodeld */,
@@ -259,12 +262,13 @@
 				4DFBB89D2E6ADD7B005341B2 /* MedicationProfileView.swift in Sources */,
 				4DFBB89E2E6ADD7B005341B2 /* ProfileView.swift in Sources */,
 				4DFBB89F2E6ADD7B005341B2 /* SupportView.swift in Sources */,
-				4DFBB8A02E6ADD7B005341B2 /* BottomNavBar.swift in Sources */,
+				4DFBB8A02E6ADD7B005341B2 /* TabItem.swift in Sources */,
 				4DFBB8A12E6ADD7B005341B2 /* BloodPressureView.swift in Sources */,
 				4DFBB8A22E6ADD7B005341B2 /* ParkinsonHelper.xcdatamodeld in Sources */,
 				4DFBB8A32E6ADD7B005341B2 /* MedicationData.swift in Sources */,
 				4DFBB8A42E6ADD7B005341B2 /* SpeechSynthesizerManager.swift in Sources */,
 				4D220A0D2E72DA5A0042FCAB /* UIState.swift in Sources */,
+				AFFDD89B2E85C8E30050905D /* HomeView.swift in Sources */,
 				4DFBB8A52E6ADD7B005341B2 /* ContentView.swift in Sources */,
 				4DFBB8A62E6ADD7B005341B2 /* ScheduleView.swift in Sources */,
 				4DFBB8A72E6ADD7B005341B2 /* ScheduleManager.swift in Sources */,
@@ -388,7 +392,7 @@
 				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 4RW4AV58HP;
+				DEVELOPMENT_TEAM = D7JB428SJR;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_CFBundleDisplayName = "Parkinson Helper";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -396,6 +400,7 @@
 				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -417,7 +422,7 @@
 				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 4RW4AV58HP;
+				DEVELOPMENT_TEAM = D7JB428SJR;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_CFBundleDisplayName = "Parkinson Helper";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -425,6 +430,7 @@
 				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
