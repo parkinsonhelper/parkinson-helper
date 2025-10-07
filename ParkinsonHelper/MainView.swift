@@ -5,41 +5,25 @@ struct MainView: View {
     @EnvironmentObject var uiState: UIState
     @AppStorage("userSurname") var userSurname: String = NSLocalizedString("USER_NAME_PLACEHOLDER", comment: "")
     
-    @State private var selectedTab: Tab = .home
-    @Environment(\.managedObjectContext) private var viewContext
+    @State private var selectedTab: TabItem = .home
 
     var body: some View {
-        ZStack(alignment: .bottom) {
-            VStack(spacing: 0) {
-                if selectedTab == .home {
-                    ScrollView {
-                        VStack(spacing: 0) {
-                            HeaderView()
-                            ScheduleView(events: scheduleManager.upcomingEvents)
-                            if #available(iOS 16.0, *) {
-                                BloodPressureView(context: viewContext)
-                            }
-                        }
-                        .padding(.bottom, 100)
-                    }
-                } else if selectedTab == .history {
-                    HistoryView()
-                } else if selectedTab == .support {
-                    SupportView()
-                } else if selectedTab == .settings {
-                    MedicationProfileView()
-                } else {
-                    // Other tabs can be implemented here
-                    Spacer()
-                    Text("\(String(describing: selectedTab).capitalized)\(NSLocalizedString("GENERIC_SCREEN_SUFFIX", comment: ""))")
-                    Spacer()
-                }
+        TabView(selection: $selectedTab) {
+            Tab(TabItem.home.localizedString, systemImage: TabItem.home.sfSymbol, value: .home) {
+                HomeView()
             }
-            .environmentObject(scheduleManager)
-
-            BottomNavBar(selectedTab: $selectedTab)
-                .padding(.bottom, 0)
-                .ignoresSafeArea(.keyboard, edges: .bottom)
+            
+            Tab(TabItem.history.localizedString, systemImage: TabItem.history.sfSymbol, value: .history) {
+                HistoryView()
+            }
+            
+            Tab(TabItem.support.localizedString, systemImage: TabItem.support.sfSymbol, value: .support) {
+                SupportView()
+            }
+            
+            Tab(TabItem.settings.localizedString, systemImage: TabItem.settings.sfSymbol, value: .settings) {
+                MedicationProfileView()
+            }
         }
         .sheet(isPresented: $uiState.showingProfileSheet) {
             ProfileView()

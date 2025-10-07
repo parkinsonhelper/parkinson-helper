@@ -100,7 +100,8 @@ struct MedicationProfileView: View {
                             .padding()
                     }
                 }
-            }.toolbar(.hidden, for: .navigationBar)
+            }
+            .toolbar(.hidden, for: .navigationBar)
         }
     }
 }
